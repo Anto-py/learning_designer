@@ -1144,7 +1144,6 @@ body.focus-mode .activity-group.focus-active { display: block; }
      </a>
      (UCL Knowledge Lab).
     </p>
-
 <details class="mt-1 inline-block text-left max-w-3xl mx-auto px-3">
 <summary class="cursor-pointer no-underline hover:text-slate-500 select-none bg-transparent hover:bg-transparent focus:bg-transparent active:bg-transparent" style="background: transparent;">Mentions légales / Confidentialité</summary>
 <div class="mt-2 text-slate-500 leading-relaxed">
@@ -1191,7 +1190,6 @@ body.focus-mode .activity-group.focus-active { display: block; }
 </ol>
 </div>
 </details>
-
 </footer>
 </div>
 <div class="hidden fixed inset-0 bg-slate-900 bg-opacity-50 z-50 flex items-center justify-center p-4" id="custom-confirm-modal">
@@ -1275,12 +1273,12 @@ body.focus-mode .activity-group.focus-active { display: block; }
 </div>
 <div class="h-8 w-px bg-slate-100 mx-1">
 </div>
-<button class="text-slate-400 hover:text-indigo-500 p-1 transition-colors" data-i18n-title="title_toggle_description" data-action="toggle-module-description" title="Afficher/Masquer la description">
+<button class="text-slate-400 hover:text-indigo-500 p-1 transition-colors" data-action="toggle-module-description" data-i18n-title="title_toggle_description" title="Afficher/Masquer la description">
 <span class="material-icons-round text-lg">
         description
        </span>
 </button>
-<button class="text-slate-400 hover:text-indigo-500 p-1 transition-colors" data-i18n-title="title_toggle_panel" data-action="toggle-module" title="Afficher/Masquer les paramètres">
+<button class="text-slate-400 hover:text-indigo-500 p-1 transition-colors" data-action="toggle-module" data-i18n-title="title_toggle_panel" title="Afficher/Masquer les paramètres">
 <span class="material-icons-round text-lg rotate-icon">
         expand_more
        </span>
@@ -1290,7 +1288,7 @@ body.focus-mode .activity-group.focus-active { display: block; }
         content_copy
        </span>
 </button>
-<button aria-pressed="false" class="text-slate-400 hover:text-indigo-500 p-1 transition-colors" data-i18n-title="title_focus_module" data-action="focus-module" title="Mode focus" type="button">
+<button aria-pressed="false" class="text-slate-400 hover:text-indigo-500 p-1 transition-colors" data-action="focus-module" data-i18n-title="title_focus_module" title="Mode focus" type="button">
 <span class="material-icons-round text-lg focus-toggle-icon">center_focus_strong</span>
 </button>
 <button class="text-slate-400 hover:text-red-500 p-1 transition-colors" data-action="delete-module" data-i18n-title="title_delete_activity" title="Supprimer ce module" type="button">
@@ -1308,7 +1306,7 @@ body.focus-mode .activity-group.focus-active { display: block; }
 </div>
 <div class="activity-moments-container ml-4 pl-4 space-y-3 min-h-[20px]"></div>
 <div class="mt-2 pt-1 flex justify-center gap-2 no-print border-t border-slate-100">
-<button class="text-sm font-semibold text-slate-500 hover:text-indigo-700 px-3 py-1 rounded transition-colors flex items-center gap-1 hover:bg-slate-50" data-i18n-title="title_add_step" data-action="add-step" type="button">
+<button class="text-sm font-semibold text-slate-500 hover:text-indigo-700 px-3 py-1 rounded transition-colors flex items-center gap-1 hover:bg-slate-50" data-action="add-step" data-i18n-title="title_add_step" type="button">
 <span class="material-icons-round text-sm">
         add
        </span>
@@ -1355,7 +1353,7 @@ body.focus-mode .activity-group.focus-active { display: block; }
 </div>
 </div>
 </div>
-<button aria-expanded="false" class="no-print text-slate-400 hover:text-indigo-500 p-1 transition-colors" data-i18n-title="title_toggle_description" data-action="toggle-moment-description" title="Afficher/Masquer la description" type="button"><span class="material-icons-round text-lg">description</span></button>
+<button aria-expanded="false" class="no-print text-slate-400 hover:text-indigo-500 p-1 transition-colors" data-action="toggle-moment-description" data-i18n-title="title_toggle_description" title="Afficher/Masquer la description" type="button"><span class="material-icons-round text-lg">description</span></button>
 <button aria-expanded="true" class="no-print text-slate-400 hover:text-slate-700 transition-colors" data-action="toggle-moment" title="Replier / déplier ce moment" type="button">
 <span class="material-icons-round text-lg rotate-icon-moment" style="transform: rotate(180deg);">expand_more</span>
 </button>
@@ -1427,7 +1425,7 @@ body.focus-mode .activity-group.focus-active { display: block; }
 </select>
 </div>
 <div class="flex items-center gap-0.5 no-print">
-<button class="text-slate-400 hover:text-indigo-500 p-0.5" data-i18n-title="title_toggle_panel" data-action="toggle-step" title="Afficher/Masquer les paramètres">
+<button class="text-slate-400 hover:text-indigo-500 p-0.5" data-action="toggle-step" data-i18n-title="title_toggle_panel" title="Afficher/Masquer les paramètres">
 <span class="material-icons-round text-base rotate-icon">
         expand_more
        </span>
@@ -10004,11 +10002,9 @@ function updateCharts() {
 </div>
 </div>
 <!-- Fin Modèles (DOM réel) -->
-
 <div class="ab-attribution" style="text-align:center;margin-top:2rem;padding-top:1rem;border-top:1px solid rgba(128,128,128,0.25);font-size:0.8rem;opacity:0.65;">
-  <a href="https://www.linkedin.com/in/antonin-bareau/" target="_blank" rel="noopener" style="font-weight:bold;color:inherit;text-decoration:none;">Antonin Bareau</a>
-  &nbsp;&mdash;&nbsp;
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Licence CC BY-SA 4.0</a>
-</div>
-</body>
+<a href="https://www.linkedin.com/in/antonin-bareau/" rel="noopener" style="font-weight:bold;color:inherit;text-decoration:none;" target="_blank">Antonin Bareau</a>
+   — 
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" style="color:inherit;text-decoration:none;" target="_blank">Licence CC BY-SA 4.0</a>
+</div></body>
 </html>
